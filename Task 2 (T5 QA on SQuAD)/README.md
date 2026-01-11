@@ -180,40 +180,7 @@ We implemented fine-tuning using a **manual PyTorch training loop** instead of t
 
 ---
 
-finetuning-t5-question-answering/
-│
-├── 📁 notebooks/
-│   └── t5_squad_finetuning.ipynb
-│
-├── 📁 reports/
-│   ├── 📊 Visualizations (PNG)
-│   │   ├── training_history.png
-│   │   ├── training_config.png
-│   │   ├── final_results.png
-│   │   ├── inference_examples.png
-│   │   ├── evaluation_metrics.png
-│   │   ├── f1_distribution.png
-│   │   └── model_comparison_chart.png
-│   │
-│   └── 📄 Data (CSV)
-│       ├── training_history.csv
-│       ├── training_config.csv
-│       ├── inference_results.csv
-│       ├── complete_summary.csv
-│       ├── detailed_predictions.csv
-│       └── evaluation_summary.csv
-│
-├── 📁 fine-tuned-t5-squad/
-│   ├── config.json
-│   ├── pytorch_model.bin
-│   ├── tokenizer_config.json
-│   ├── tokenizer.json
-│   ├── special_tokens_map.json
-│   └── spiece.model
-│
-├── 📄 README.md
-├── 📄 requirements.txt
-└── 📄 LICENSE
+
 
 
 
