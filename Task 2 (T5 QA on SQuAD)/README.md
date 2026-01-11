@@ -180,35 +180,41 @@ We implemented fine-tuning using a **manual PyTorch training loop** instead of t
 
 ---
 
-## 🗂️ Repository Structure
 finetuning-t5-question-answering/
 │
-├── notebooks/
-│ └── t5_squad_finetuning.ipynb # Main training notebook
+├── 📁 notebooks/
+│   └── t5_squad_finetuning.ipynb
 │
-├── reports/
-│ ├── training_history.png # Loss curves visualization
-│ ├── training_config.png # Configuration table
-│ ├── final_results.png # Final performance chart
-│ ├── inference_examples.png # Sample predictions table
-│ ├── evaluation_metrics.png # EM & F1 bar chart
-│ ├── f1_distribution.png # F1 score histogram
-│ ├── model_comparison_chart.png # Benchmark comparison
-│ ├── training_history.csv # Loss data
-│ ├── training_config.csv # Config parameters
-│ ├── inference_results.csv # Test predictions
-│ ├── complete_summary.csv # Full summary
-│ ├── detailed_predictions.csv # 20 sample results
-│ └── evaluation_summary.csv # Metrics summary
+├── 📁 reports/
+│   ├── 📊 Visualizations (PNG)
+│   │   ├── training_history.png
+│   │   ├── training_config.png
+│   │   ├── final_results.png
+│   │   ├── inference_examples.png
+│   │   ├── evaluation_metrics.png
+│   │   ├── f1_distribution.png
+│   │   └── model_comparison_chart.png
+│   │
+│   └── 📄 Data (CSV)
+│       ├── training_history.csv
+│       ├── training_config.csv
+│       ├── inference_results.csv
+│       ├── complete_summary.csv
+│       ├── detailed_predictions.csv
+│       └── evaluation_summary.csv
 │
-├── fine-tuned-t5-squad/ # Saved model weights
-│ ├── config.json
-│ ├── pytorch_model.bin
-│ └── tokenizer files...
+├── 📁 fine-tuned-t5-squad/
+│   ├── config.json
+│   ├── pytorch_model.bin
+│   ├── tokenizer_config.json
+│   ├── tokenizer.json
+│   ├── special_tokens_map.json
+│   └── spiece.model
 │
-├── requirements.txt # Python dependencies
-├── README.md # This file
-└── LICENSE # MIT License
+├── 📄 README.md
+├── 📄 requirements.txt
+└── 📄 LICENSE
+
 
 
 
